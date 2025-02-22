@@ -22,7 +22,14 @@ RUN dotnet build "src/aspnetcore/FastXTpl.Template.Host/FastXTpl.Template.Host.c
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "src/aspnetcore/FastXTpl.Template.Host/FastXTpl.Template.Host.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-COPY src/aspnetcore/FastXTpl.Template.Host/browser /app/publish/browser
+# COPY src/aspnetcore/FastXTpl.Template.Host/browser /app/publish/browser
+
+RUN if [ -d "src/aspnetcore/FastXTpl.Template.Host/browser" ]; then \
+        echo "Web directory exists, copying..." && \
+        cp -r src/aspnetcore/FastXTpl.Template.Host/browser. /app/publish/browser; \
+    else \
+        echo "Web Directory does not exist."; \
+    fi
 
 FROM base AS final
 WORKDIR /app
