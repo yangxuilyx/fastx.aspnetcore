@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\framework\FastX.AspNetCore\FastX.AspNetCore.csproj" />
+        <ProjectReference Include="..\..\..\framework\src\FastX.AspNetCore\FastX.AspNetCore.csproj" />
         <ProjectReference Include="..\FastX.App.Core\FastX.App.Core.csproj" />
     </ItemGroup>
 

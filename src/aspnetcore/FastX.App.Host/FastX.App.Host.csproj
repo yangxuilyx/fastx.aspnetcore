@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\framework\FastX.Autofac\FastX.Autofac.csproj" />
-    <ProjectReference Include="..\..\framework\FastX.CodeGenerate\FastX.CodeGenerate.csproj" />
+    <ProjectReference Include="..\..\..\framework\src\FastX.Autofac\FastX.Autofac.csproj" />
+    <ProjectReference Include="..\..\..\framework\src\FastX.CodeGenerate\FastX.CodeGenerate.csproj" />
     <ProjectReference Include="..\FastX.App.Application\FastX.App.Application.csproj" />
   </ItemGroup>
 

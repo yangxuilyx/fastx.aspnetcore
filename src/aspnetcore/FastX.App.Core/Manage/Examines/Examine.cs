@@ -2,6 +2,7 @@ using System.ComponentModel;
 using FastX.Data;
 using FastX.Data.DataFilters;
 using FastX.Data.Entities;
+using FastX.Data.Entities.AuditEntities;
 using FastX.Data.SqlSugar.DataAnnotations;
 
 namespace FastX.App.Core.Manage.Examines;

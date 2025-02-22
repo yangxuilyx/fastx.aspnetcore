@@ -14,16 +14,15 @@
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
         <NoWarn>1701;1702;1591;8618</NoWarn>
     </PropertyGroup>
-
-    <ItemGroup>
-    <ProjectReference Include="..\..\framework\FastX.Data\FastX.Data.csproj" />
-  </ItemGroup>
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Identity\Ous\" />
       <Folder Include="Manage\Studies\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\framework\src\FastX.Data\FastX.Data.csproj" />
     </ItemGroup>
 
 </Project>
