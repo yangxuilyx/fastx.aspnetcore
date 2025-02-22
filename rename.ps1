@@ -2,36 +2,34 @@
 $OutputEncoding = [Text.UTF8Encoding]::UTF8
 
 # company name placeholder 
-$oldCompanyName="FastXTpl"
-# project name placeholder
-$oldProjectName="WebTemplate"
-
+$oldCompanyName = "FastXTpl"
 # your company name
-$newCompanyName=""
+$newCompanyName = "x"
 
+# project name placeholder
+$oldProjectName = "WebTemplate"
 # your project name
-$newProjectName=""
+$newProjectName = ""
 
 # file type
-$fileType="FileInfo"
+$fileType = "FileInfo"
 
 # directory type
-$dirType="DirectoryInfo"
+$dirType = "DirectoryInfo"
 
 # copy 
 Write-Host 'Start copy folders...'
-$newRoot=$newCompanyName+"."+$newProjectName
+$newRoot = "../$newProjectName"
 mkdir $newRoot
-Copy-Item -Recurse .\aspnet-core\ .\$newRoot\
-Copy-Item -Recurse .\vue\ .\$newRoot\
-Copy-Item .gitignore .\$newRoot\
-Copy-Item LICENSE .\$newRoot\
-Copy-Item README.md .\$newRoot\
+Copy-Item -Recurse .\ .\$newRoot\
+# Copy-Item -Recurse .\vue\ .\$newRoot\
+# Copy-Item .gitignore .\$newRoot\
+# Copy-Item LICENSE .\$newRoot\
+# Copy-Item README.md .\$newRoot\
 
 # folders to deal with
-$slnFolder = (Get-Item -Path "./$newRoot/aspnet-core/" -Verbose).FullName
-$vueFolder = (Get-Item -Path "./$newRoot/vue/" -Verbose).FullName
-
+$slnFolder = (Get-Item -Path "./$newRoot/" -Verbose).FullName
+$slnFolder
 function Rename {
 	param (
 		$TargetFolder,
@@ -41,15 +39,15 @@ function Rename {
 		$NewProjectName
 	)
 	# file extensions to deal with
-	$include=@("*.cs","*.cshtml","*.asax","*.ps1","*.ts","*.csproj","*.sln","*.xaml","*.json","*.js","*.xml","*.config","Dockerfile")
+	$include = @("*.cs", "*.cshtml", "*.asax", "*.ts", "*.csproj", "*.sln", "*.xaml", "*.json", "*.js", "*.xml", "*.config", "Dockerfile", ".gitignore")
 
 	$elapsed = [System.Diagnostics.Stopwatch]::StartNew()
 
 	Write-Host "[$TargetFolder]Start rename folder..."
 	# rename folder
-	Ls $TargetFolder -Recurse | Where { $_.GetType().Name -eq $dirType -and ($_.Name.Contains($PlaceHolderCompanyName) -or $_.Name.Contains($PlaceHolderProjectName)) } | ForEach-Object{
+	Ls $TargetFolder -Recurse | Where { $_.GetType().Name -eq $dirType -and ($_.Name.Contains($PlaceHolderProjectName)) } | ForEach-Object {
 		Write-Host 'directory ' $_.FullName
-		$newDirectoryName=$_.Name.Replace($PlaceHolderCompanyName,$NewCompanyName).Replace($PlaceHolderProjectName,$NewProjectName)
+		$newDirectoryName = $_.Name.Replace($PlaceHolderCompanyName,$NewCompanyName).Replace($PlaceHolderProjectName,$NewProjectName)
 		Rename-Item $_.FullName $newDirectoryName
 	}
 	Write-Host "[$TargetFolder]End rename folder."
@@ -58,7 +56,7 @@ function Rename {
 
 	# replace file content and rename file name
 	Write-Host "[$TargetFolder]Start replace file content and rename file name..."
-	Ls $TargetFolder -Include $include -Recurse | Where { $_.GetType().Name -eq $fileType} | ForEach-Object{
+	Ls $TargetFolder -Include $include -Recurse | Where { $_.GetType().Name -eq $fileType } | ForEach-Object {
 		$fileText = Get-Content $_ -Raw -Encoding UTF8
 		if($fileText.Length -gt 0 -and ($fileText.contains($PlaceHolderCompanyName) -or $fileText.contains($PlaceHolderProjectName))){
 			$fileText.Replace($PlaceHolderCompanyName,$NewCompanyName).Replace($PlaceHolderProjectName,$NewProjectName) | Set-Content $_ -Encoding UTF8
@@ -78,5 +76,6 @@ function Rename {
 }
 
 Rename -TargetFolder $slnFolder -PlaceHolderCompanyName $oldCompanyName -PlaceHolderProjectName $oldProjectName -NewCompanyName $newCompanyName -NewProjectName $newProjectName
-Rename -TargetFolder $vueFolder -PlaceHolderCompanyName $oldCompanyName -PlaceHolderProjectName $oldProjectName -NewCompanyName $newCompanyName -NewProjectName $newProjectName
+
+
 
