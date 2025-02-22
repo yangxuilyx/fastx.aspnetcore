@@ -1,8 +1,8 @@
-using FastX.App.Core.Manage.Fees;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
+using FastXTpl.Template.Core.Manage.Fees;
 
-namespace FastX.App.Application.Manage.Fees.Dtos;
+namespace FastXTpl.Template.Application.Manage.Fees.Dtos;
 
 /// <summary>
 /// 获取党费输入

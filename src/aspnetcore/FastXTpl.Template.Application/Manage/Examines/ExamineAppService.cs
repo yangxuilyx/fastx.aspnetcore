@@ -1,15 +1,14 @@
-using FastX.App.Application.Manage.Examines.Dtos;
-using FastX.App.Application.Manage.Fees;
-using FastX.App.Core.Identity.Ous;
-using FastX.App.Core.Identity.Users;
 using FastX.Application.Services;
 using FastX.Data.Repository;
-using SqlSugar;
-using FastX.App.Core.Manage.Examines;
-using FastX.App.Core.Manage.Questions;
+using FastXTpl.Template.Application.Manage.Examines.Dtos;
+using FastXTpl.Template.Core.Identity.Ous;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Examines;
+using FastXTpl.Template.Core.Manage.Questions;
 using Microsoft.AspNetCore.Authorization;
+using SqlSugar;
 
-namespace FastX.App.Application.Manage.Examines;
+namespace FastXTpl.Template.Application.Manage.Examines;
 
 /// <summary>
 /// 在线考核

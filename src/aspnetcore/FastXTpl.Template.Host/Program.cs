@@ -1,11 +1,10 @@
-
-using FastX.App.Host;
 using FastX.AspNetCore;
+using FastXTpl.Template.Host;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseAutofac();
 
-await builder.AddApplicationAsync<AppHostModule>();
+await builder.AddApplicationAsync<TemplateHostModule>();
 
 var app = builder.Build();
 

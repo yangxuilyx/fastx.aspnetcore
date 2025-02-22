@@ -1,9 +1,9 @@
-using FastX.App.Core.Manage;
-using FastX.App.Core.Manage.Notis;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
+using FastXTpl.Template.Core.Manage;
+using FastXTpl.Template.Core.Manage.Notis;
 
-namespace FastX.App.Application.Manage.Notis.Dtos;
+namespace FastXTpl.Template.Application.Manage.Notis.Dtos;
 
 /// <summary>
 /// 获取通知输入

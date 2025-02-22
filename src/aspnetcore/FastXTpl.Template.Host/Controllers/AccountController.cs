@@ -1,13 +1,13 @@
-using FastX.App.Core.Identity.Users;
-using FastX.App.Host.Models.Account;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using FastX.Data.Repository;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Host.Models.Account;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
-namespace FastX.App.Host.Controllers;
+namespace FastXTpl.Template.Host.Controllers;
 
 /// <summary>
 /// Account

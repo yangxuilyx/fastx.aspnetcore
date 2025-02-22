@@ -1,6 +1,6 @@
-using FastX.App.Core.Identity.Ous;
+using FastXTpl.Template.Core.Identity.Ous;
 
-namespace FastX.App.Application.Identity.Ous.Dtos;
+namespace FastXTpl.Template.Application.Identity.Ous.Dtos;
 
 /// <summary>
 /// 创建组织

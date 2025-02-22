@@ -1,13 +1,14 @@
-using FastX.App.Application.Identity.Users.Dtos;
-using FastX.App.Application.Manage.Fees.Dtos;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Core.Manage.Fees;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Identity.Users.Dtos;
+using FastXTpl.Template.Application.Manage.Fees.Dtos;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Fees;
 using Microsoft.AspNetCore.Authorization;
 using SqlSugar;
 
-namespace FastX.App.Application.Manage.Fees;
+namespace FastXTpl.Template.Application.Manage.Fees;
 
 /// <summary>
 /// 党费管理

@@ -1,7 +1,7 @@
-using FastX.App.Application.Identity.Users.Dtos;
-using FastX.App.Core.Manage.Fees;
+using FastXTpl.Template.Application.Identity.Users.Dtos;
+using FastXTpl.Template.Core.Manage.Fees;
 
-namespace FastX.App.Application.Manage.Fees.Dtos;
+namespace FastXTpl.Template.Application.Manage.Fees.Dtos;
 
 /// <summary>
 /// FeeDto

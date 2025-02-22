@@ -1,12 +1,12 @@
-using FastX.App.Application.Identity.Ous.Dtos;
-using FastX.App.Core.Identity.Ous;
 using FastX.Application.Dtos;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Identity.Ous.Dtos;
+using FastXTpl.Template.Core.Identity.Ous;
 using Microsoft.AspNetCore.Authorization;
 using SqlSugar;
 
-namespace FastX.App.Application.Identity.Ous;
+namespace FastXTpl.Template.Application.Identity.Ous;
 
 /// <summary>
 /// 组织管理

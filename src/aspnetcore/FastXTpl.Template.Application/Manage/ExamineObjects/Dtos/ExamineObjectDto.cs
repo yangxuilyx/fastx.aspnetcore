@@ -1,7 +1,6 @@
-using FastX.App.Core.Manage.Examines;
-using System.ComponentModel.DataAnnotations;
+using FastXTpl.Template.Core.Manage.Examines;
 
-namespace FastX.App.Application.Manage.ExamineObjects.Dtos;
+namespace FastXTpl.Template.Application.Manage.ExamineObjects.Dtos;
 
 public class ExamineObjectDto
 {

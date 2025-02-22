@@ -1,20 +1,18 @@
-using FastX.App.Application;
-using FastX.Data;
-using FastX.Modularity;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using SqlSugar;
 using System.Text;
 using FastX.CodeGenerate;
+using FastX.Modularity;
+using FastXTpl.Template.Application;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
-namespace FastX.App.Host;
+namespace FastXTpl.Template.Host;
 
 /// <summary>
 /// 
 /// </summary>
-[DependsOn(typeof(FastXAppApplicationModule), typeof(XCodeGenerateModule))]
-public class AppHostModule : XModule
+[DependsOn(typeof(TemplateApplicationModule), typeof(XCodeGenerateModule))]
+public class TemplateHostModule : XModule
 {
     /// <summary>
     /// 

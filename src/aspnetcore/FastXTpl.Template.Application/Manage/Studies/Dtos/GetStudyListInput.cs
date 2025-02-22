@@ -1,8 +1,8 @@
-using FastX.App.Core.Manage;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
+using FastXTpl.Template.Core.Manage;
 
-namespace FastX.App.Application.Manage.Studies.Dtos;
+namespace FastXTpl.Template.Application.Manage.Studies.Dtos;
 
 public class GetStudyListInput : IPagedResultRequest, ISortedResultRequest
 {

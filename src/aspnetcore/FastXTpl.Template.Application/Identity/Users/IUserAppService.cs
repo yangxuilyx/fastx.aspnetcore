@@ -1,7 +1,7 @@
-using FastX.App.Application.Identity.Users.Dtos;
 using FastX.AspNetCore;
+using FastXTpl.Template.Application.Identity.Users.Dtos;
 
-namespace FastX.App.Application.Identity.Users;
+namespace FastXTpl.Template.Application.Identity.Users;
 
 /// <summary>
 /// 用户管理

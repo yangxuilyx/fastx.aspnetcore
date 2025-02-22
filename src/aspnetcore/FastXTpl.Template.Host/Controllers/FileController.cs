@@ -1,8 +1,8 @@
-using System.ComponentModel.DataAnnotations;
-using FastX.App.Host.Models.File;
+using FastX;
+using FastXTpl.Template.Host.Models.File;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FastX.App.Host.Controllers;
+namespace FastXTpl.Template.Host.Controllers;
 
 /// <summary>
 /// File

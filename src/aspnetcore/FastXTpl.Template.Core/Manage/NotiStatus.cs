@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace FastX.App.Core.Manage;
+namespace FastXTpl.Template.Core.Manage;
 
 /// <summary>
 /// 通知状态

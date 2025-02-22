@@ -1,9 +1,7 @@
-using FastX.App.Core.Identity.Roles;
-using FastX.App.Core.Identity.Users;
-using FastX.Data.Repository;
+using FastXTpl.Template.Core.Identity.Users;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FastX.App.Host.Controllers;
+namespace FastXTpl.Template.Host.Controllers;
 
 /// <summary>
 /// Index

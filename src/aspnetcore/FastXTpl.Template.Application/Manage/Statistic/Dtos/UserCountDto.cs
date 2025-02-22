@@ -1,6 +1,4 @@
-using FastX.App.Core.Identity.Users;
-
-namespace FastX.App.Application.Manage.Statistic.Dtos;
+namespace FastXTpl.Template.Application.Manage.Statistic.Dtos;
 
 public class UserCountDto
 {

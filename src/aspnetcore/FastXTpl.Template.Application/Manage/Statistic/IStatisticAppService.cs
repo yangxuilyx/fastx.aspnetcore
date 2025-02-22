@@ -1,9 +1,7 @@
-using FastX.App.Application.Identity.Users.Dtos;
-using FastX.App.Application.Manage.Statistic.Dtos;
-using FastX.App.Core.Manage.Integrals;
 using FastX.AspNetCore;
+using FastXTpl.Template.Application.Manage.Statistic.Dtos;
 
-namespace FastX.App.Application.Manage.Statistic;
+namespace FastXTpl.Template.Application.Manage.Statistic;
 
 public interface IStatisticAppService : IApplicationService
 {

@@ -1,7 +1,7 @@
-using FastX.App.Application.Manage.ExamineObjectQuestions.Dtos;
 using FastX.AspNetCore;
+using FastXTpl.Template.Application.Manage.ExamineObjectQuestions.Dtos;
 
-namespace FastX.App.Application.Manage.ExamineObjectQuestions;
+namespace FastXTpl.Template.Application.Manage.ExamineObjectQuestions;
 
 /// <summary>
 /// 考核对象题库

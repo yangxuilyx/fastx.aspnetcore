@@ -1,7 +1,7 @@
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
 
-namespace FastX.App.Application.Manage.Threes.Dtos;
+namespace FastXTpl.Template.Application.Manage.Threes.Dtos;
 
 /// <summary>
 /// GetThreeListInput

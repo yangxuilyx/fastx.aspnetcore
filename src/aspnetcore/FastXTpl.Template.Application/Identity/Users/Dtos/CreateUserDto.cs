@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Identity.Users.Dtos;
+namespace FastXTpl.Template.Application.Identity.Users.Dtos;
 
 /// <summary>
 /// CreateUserDto

@@ -1,11 +1,9 @@
 using System.ComponentModel;
 using FastX.Data.DataFilters;
 using FastX.Data.Entities;
-using FastX.Data.SqlSugar;
 using FastX.Data.SqlSugar.DataAnnotations;
-using SqlSugar;
 
-namespace FastX.App.Core.Identity.Users;
+namespace FastXTpl.Template.Core.Identity.Users;
 
 /// <summary>
 /// 用户

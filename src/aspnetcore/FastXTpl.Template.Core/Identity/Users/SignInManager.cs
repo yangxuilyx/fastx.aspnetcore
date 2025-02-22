@@ -1,13 +1,10 @@
 using System.Security.Claims;
 using FastX.DependencyInjection;
 using FastX.Security.Claims;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
-namespace FastX.App.Core.Identity.Users;
+namespace FastXTpl.Template.Core.Identity.Users;
 
 /// <summary>
 /// SignInManager

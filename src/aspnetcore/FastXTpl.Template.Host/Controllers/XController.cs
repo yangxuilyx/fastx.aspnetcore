@@ -3,7 +3,7 @@ using FastX.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FastX.App.Host.Controllers;
+namespace FastXTpl.Template.Host.Controllers;
 
 /// <summary>
 /// XController

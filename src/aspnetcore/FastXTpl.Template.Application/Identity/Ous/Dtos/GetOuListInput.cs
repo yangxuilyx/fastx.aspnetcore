@@ -1,7 +1,7 @@
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
 
-namespace FastX.App.Application.Identity.Ous.Dtos;
+namespace FastXTpl.Template.Application.Identity.Ous.Dtos;
 
 public class GetOuListInput : IPagedResultRequest
 {

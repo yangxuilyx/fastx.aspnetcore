@@ -1,7 +1,4 @@
-using FastX.App.Application.Identity.Ous.Dtos;
-using FastX.App.Application.Identity.Users.Dtos;
-
-namespace FastX.App.Application.Manage.Threes.Dtos;
+namespace FastXTpl.Template.Application.Manage.Threes.Dtos;
 
 /// <summary>
 /// 创建三会一课

@@ -1,6 +1,6 @@
 using FastX.AspNetCore;
 
-namespace FastX.App.Application.Manage.ExamineObjects;
+namespace FastXTpl.Template.Application.Manage.ExamineObjects;
 
 public interface IExamineObjectAppService : IApplicationService
 {

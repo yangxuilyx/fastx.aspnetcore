@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace FastX.App.Core.Identity.Ous;
+namespace FastXTpl.Template.Core.Identity.Ous;
 
 /// <summary>
 /// 组织级别

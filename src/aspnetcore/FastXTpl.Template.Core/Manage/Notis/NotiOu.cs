@@ -1,9 +1,8 @@
-using FastX.Data;
-using FastX.Data.SqlSugar.DataAnnotations;
 using System.ComponentModel.DataAnnotations;
 using FastX.Data.Entities;
+using FastX.Data.SqlSugar.DataAnnotations;
 
-namespace FastX.App.Core.Manage.Notis;
+namespace FastXTpl.Template.Core.Manage.Notis;
 
 /// <summary>
 /// 通知部门

@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace FastX.App.Core.Identity.Users;
+namespace FastXTpl.Template.Core.Identity.Users;
 
 /// <summary>
 /// 党员类型

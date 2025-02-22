@@ -1,7 +1,6 @@
-using FastX.App.Application.Manage.Integrals.Dtos;
-using FastX.App.Core.Manage.Integrals;
+using FastXTpl.Template.Application.Manage.Integrals.Dtos;
 
-namespace FastX.App.Application.Manage.Integrals;
+namespace FastXTpl.Template.Application.Manage.Integrals;
 
 /// <summary>
 /// 积分

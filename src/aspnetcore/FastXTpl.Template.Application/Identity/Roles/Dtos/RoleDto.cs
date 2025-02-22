@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Identity.Roles.Dtos;
+namespace FastXTpl.Template.Application.Identity.Roles.Dtos;
 
 /// <summary>
 /// 角色

@@ -1,7 +1,7 @@
-using FastX.App.Core.Manage;
-using FastX.App.Core.Manage.Notis;
+using FastXTpl.Template.Core.Manage;
+using FastXTpl.Template.Core.Manage.Notis;
 
-namespace FastX.App.Application.Manage.Notis.Dtos;
+namespace FastXTpl.Template.Application.Manage.Notis.Dtos;
 
 public class NotiDto
 {

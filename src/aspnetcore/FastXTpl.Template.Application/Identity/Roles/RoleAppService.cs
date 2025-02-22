@@ -1,11 +1,11 @@
-using FastX.App.Application.Identity.Roles.Dtos;
-using FastX.App.Core.Identity.Roles;
 using FastX.Application.Services;
 using FastX.Authorization.Permissions.Abstractions;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Identity.Roles.Dtos;
+using FastXTpl.Template.Core.Identity.Roles;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FastX.App.Application.Identity.Roles;
+namespace FastXTpl.Template.Application.Identity.Roles;
 
 /// <summary>
 /// 角色管理

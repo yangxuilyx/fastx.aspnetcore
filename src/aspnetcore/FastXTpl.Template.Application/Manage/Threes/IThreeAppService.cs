@@ -1,6 +1,6 @@
 using FastX.AspNetCore;
 
-namespace FastX.App.Application.Manage.Threes;
+namespace FastXTpl.Template.Application.Manage.Threes;
 
 /// <summary>
 /// IThreeAppService

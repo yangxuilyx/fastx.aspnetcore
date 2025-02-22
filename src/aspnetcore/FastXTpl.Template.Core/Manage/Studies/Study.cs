@@ -1,8 +1,7 @@
-using FastX.Data;
 using FastX.Data.Entities.AuditEntities;
 using FastX.Data.SqlSugar.DataAnnotations;
 
-namespace FastX.App.Core.Manage.Studies;
+namespace FastXTpl.Template.Core.Manage.Studies;
 
 /// <summary>
 /// 课程

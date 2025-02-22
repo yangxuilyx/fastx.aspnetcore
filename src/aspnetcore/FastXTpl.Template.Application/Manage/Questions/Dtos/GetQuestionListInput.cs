@@ -1,8 +1,8 @@
-using FastX.App.Core.Manage.Questions;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
+using FastXTpl.Template.Core.Manage.Questions;
 
-namespace FastX.App.Application.Manage.Questions.Dtos;
+namespace FastXTpl.Template.Application.Manage.Questions.Dtos;
 
 /// <summary>
 /// 题库

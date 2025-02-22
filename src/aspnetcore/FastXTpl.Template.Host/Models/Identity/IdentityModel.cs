@@ -1,6 +1,6 @@
-using FastX.App.Core.Identity.Users;
+using FastXTpl.Template.Core.Identity.Users;
 
-namespace FastX.App.Host.Models.Identity;
+namespace FastXTpl.Template.Host.Models.Identity;
 
 /// <summary>
 /// 用户信息

@@ -1,7 +1,7 @@
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
 
-namespace FastX.App.Application.Identity.Roles.Dtos;
+namespace FastXTpl.Template.Application.Identity.Roles.Dtos;
 
 /// <summary>
 /// GetRoleListInput

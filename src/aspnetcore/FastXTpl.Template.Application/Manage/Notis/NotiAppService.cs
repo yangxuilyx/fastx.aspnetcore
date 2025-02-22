@@ -1,13 +1,13 @@
-using FastX.App.Application.Manage.Notis.Dtos;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Core.Manage;
-using FastX.App.Core.Manage.Notis;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Manage.Notis.Dtos;
+using FastXTpl.Template.Core.Manage;
+using FastXTpl.Template.Core.Manage.Notis;
 using Microsoft.AspNetCore.Authorization;
 using SqlSugar;
 
-namespace FastX.App.Application.Manage.Notis;
+namespace FastXTpl.Template.Application.Manage.Notis;
 
 /// <summary>
 /// 通知管理

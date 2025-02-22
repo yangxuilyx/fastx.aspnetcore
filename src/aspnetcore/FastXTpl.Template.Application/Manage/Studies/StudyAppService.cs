@@ -1,15 +1,14 @@
-using FastX.App.Application.Manage.Notis.Dtos;
-using FastX.App.Application.Manage.Studies.Dtos;
-using FastX.App.Core.Manage.Notis;
-using FastX.App.Core.Manage;
-using FastX.App.Core.Manage.Integrals;
-using FastX.App.Core.Manage.Studies;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Manage.Studies.Dtos;
+using FastXTpl.Template.Core.Manage;
+using FastXTpl.Template.Core.Manage.Integrals;
+using FastXTpl.Template.Core.Manage.Studies;
 using Microsoft.AspNetCore.Authorization;
 using SqlSugar;
 
-namespace FastX.App.Application.Manage.Studies;
+namespace FastXTpl.Template.Application.Manage.Studies;
 
 [Authorize()]
 public class StudyAppService : CrudAppService<Study, string, StudyDto, GetStudyListInput>, IStudyAppService

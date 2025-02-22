@@ -1,15 +1,15 @@
-using FastX.App.Application.Identity.Ous.Dtos;
-using FastX.App.Application.Identity.Users.Dtos;
-using FastX.App.Application.Manage.Threes.Dtos;
-using FastX.App.Core.Identity.Ous;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Core.Manage.Threes;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Identity.Ous.Dtos;
+using FastXTpl.Template.Application.Identity.Users.Dtos;
+using FastXTpl.Template.Application.Manage.Threes.Dtos;
+using FastXTpl.Template.Core.Identity.Ous;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Threes;
 using Microsoft.AspNetCore.Authorization;
 using SqlSugar;
 
-namespace FastX.App.Application.Manage.Threes;
+namespace FastXTpl.Template.Application.Manage.Threes;
 
 /// <summary>
 /// 三会一课管理

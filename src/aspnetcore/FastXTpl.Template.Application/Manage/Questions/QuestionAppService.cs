@@ -1,10 +1,10 @@
-using FastX.App.Application.Manage.Questions.Dtos;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Manage.Questions.Dtos;
+using FastXTpl.Template.Core.Manage.Questions;
 using SqlSugar;
-using FastX.App.Core.Manage.Questions;
 
-namespace FastX.App.Application.Manage.Questions;
+namespace FastXTpl.Template.Application.Manage.Questions;
 
 /// <summary>
 /// 题库

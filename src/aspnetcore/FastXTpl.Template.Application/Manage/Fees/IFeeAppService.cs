@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Manage.Fees;
+namespace FastXTpl.Template.Application.Manage.Fees;
 
 /// <summary>
 /// 党费管理

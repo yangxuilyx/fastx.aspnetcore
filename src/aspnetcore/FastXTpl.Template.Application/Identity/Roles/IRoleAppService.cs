@@ -1,6 +1,6 @@
-using FastX.App.Application.Identity.Roles.Dtos;
+using FastXTpl.Template.Application.Identity.Roles.Dtos;
 
-namespace FastX.App.Application.Identity.Roles;
+namespace FastXTpl.Template.Application.Identity.Roles;
 
 /// <summary>
 /// 角色管理

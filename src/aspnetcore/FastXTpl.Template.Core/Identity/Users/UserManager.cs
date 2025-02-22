@@ -2,7 +2,7 @@ using FastX.Data.Repository;
 using FastX.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
 
-namespace FastX.App.Core.Identity.Users;
+namespace FastXTpl.Template.Core.Identity.Users;
 
 /// <summary>
 /// 用户管理

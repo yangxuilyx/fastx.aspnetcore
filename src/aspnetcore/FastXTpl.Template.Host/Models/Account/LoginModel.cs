@@ -1,4 +1,4 @@
-namespace FastX.App.Host.Models.Account;
+namespace FastXTpl.Template.Host.Models.Account;
 
 /// <summary>
 /// 登录模型

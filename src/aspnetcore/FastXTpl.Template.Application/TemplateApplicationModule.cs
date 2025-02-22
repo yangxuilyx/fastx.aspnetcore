@@ -1,15 +1,15 @@
 using FastX.App.Core;
 using FastX.AspNetCore;
-using FastX.Authorization;
 using FastX.Modularity;
+using FastXTpl.Template.Core;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FastX.App.Application;
+namespace FastXTpl.Template.Application;
 
 [DependsOn(
     typeof(XAspNetCoreModule),
-    typeof(FastXAppCoreModule))]
-public class FastXAppApplicationModule : XModule
+    typeof(TemplateCoreModule))]
+public class TemplateApplicationModule : XModule
 {
     /// <summary>
     /// ConfigurationService
@@ -17,6 +17,6 @@ public class FastXAppApplicationModule : XModule
     /// <param name="services"></param>
     public override void ConfigurationService(IServiceCollection services)
     {
-        services.AddAutoMapper(typeof(FastXAppApplicationModule).Assembly);
+        services.AddAutoMapper(typeof(TemplateApplicationModule).Assembly);
     }
 }

@@ -1,4 +1,4 @@
-namespace FastX.App.Host.Models.File;
+namespace FastXTpl.Template.Host.Models.File;
 
 /// <summary>
 /// FileResult

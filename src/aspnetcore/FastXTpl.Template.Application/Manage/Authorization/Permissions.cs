@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Manage.Authorization;
+namespace FastXTpl.Template.Application.Manage.Authorization;
 
 public class Permissions
 {

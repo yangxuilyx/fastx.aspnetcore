@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Manage.Statistic.Dtos;
+namespace FastXTpl.Template.Application.Manage.Statistic.Dtos;
 
 public class FeeCountDto
 {

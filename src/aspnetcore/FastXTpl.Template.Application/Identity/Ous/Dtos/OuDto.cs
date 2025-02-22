@@ -1,8 +1,6 @@
-using FastX.App.Core.Identity.Ous;
-using FastX.Data.SqlSugar;
-using SqlSugar;
+using FastXTpl.Template.Core.Identity.Ous;
 
-namespace FastX.App.Application.Identity.Ous.Dtos;
+namespace FastXTpl.Template.Application.Identity.Ous.Dtos;
 
 /// <summary>
 /// 组织Dto

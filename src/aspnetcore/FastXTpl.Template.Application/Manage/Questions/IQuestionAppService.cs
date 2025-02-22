@@ -1,6 +1,6 @@
-using FastX.App.Application.Manage.Questions.Dtos;
+using FastXTpl.Template.Application.Manage.Questions.Dtos;
 
-namespace FastX.App.Application.Manage.Questions;
+namespace FastXTpl.Template.Application.Manage.Questions;
 
 /// <summary>
 /// 题库

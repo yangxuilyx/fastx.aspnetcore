@@ -1,11 +1,12 @@
-using FastX.App.Core.Identity.Roles;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Host.Models.Identity;
+using FastX;
 using FastX.Data.Repository;
+using FastXTpl.Template.Core.Identity.Roles;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Host.Models.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FastX.App.Host.Controllers;
+namespace FastXTpl.Template.Host.Controllers;
 
 /// <summary>
 /// 身份管理

@@ -1,19 +1,19 @@
-using FastX.App.Core.Identity.Users;
 using FastX.Data;
 using FastX.Modularity;
+using FastXTpl.Template.Core.Identity.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using SqlSugar;
 
-namespace FastX.App.Core
+namespace FastXTpl.Template.Core
 {
     /// <summary>
     /// FastXAppCoreModule
     /// </summary>
     [DependsOn(typeof(FastXDataModule))]
-    public class FastXAppCoreModule : XModule
+    public class TemplateCoreModule : XModule
     {
         /// <summary>
         /// ConfigurationService
@@ -46,7 +46,7 @@ namespace FastX.App.Core
         /// <param name="services"></param>
         public override void PostConfigureServices(IServiceCollection services)
         {
-            services.GetSingletonInstance<XSugarBuilder>().CodeFirstInitTables(typeof(FastXAppCoreModule).Assembly);
+            services.GetSingletonInstance<XSugarBuilder>().CodeFirstInitTables(typeof(TemplateCoreModule).Assembly);
         }
     }
 }

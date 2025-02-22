@@ -1,11 +1,8 @@
 using System.ComponentModel;
-using FastX.Data;
-using FastX.Data.DataFilters;
-using FastX.Data.Entities;
 using FastX.Data.Entities.AuditEntities;
 using FastX.Data.SqlSugar.DataAnnotations;
 
-namespace FastX.App.Core.Manage.Examines;
+namespace FastXTpl.Template.Core.Manage.Examines;
 
 /// <summary>
 /// 在线考核

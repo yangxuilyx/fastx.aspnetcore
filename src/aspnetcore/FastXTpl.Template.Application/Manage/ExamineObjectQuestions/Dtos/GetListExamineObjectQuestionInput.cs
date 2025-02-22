@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FastX.App.Application.Manage.ExamineObjectQuestions.Dtos;
+namespace FastXTpl.Template.Application.Manage.ExamineObjectQuestions.Dtos;
 
 /// <summary>
 /// 获取列表输入

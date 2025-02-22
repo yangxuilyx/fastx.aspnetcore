@@ -1,8 +1,7 @@
-using FastX.App.Application.Manage.Notis.Dtos;
-using FastX.App.Core.Manage.Notis;
 using FastX.AspNetCore;
+using FastXTpl.Template.Application.Manage.Notis.Dtos;
 
-namespace FastX.App.Application.Manage.Notis;
+namespace FastXTpl.Template.Application.Manage.Notis;
 
 /// <summary>
 /// 通知管理

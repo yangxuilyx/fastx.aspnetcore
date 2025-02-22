@@ -1,13 +1,10 @@
-using System;
-using System.Threading.Tasks;
-using FastX.App.Host.Models.Sms;
+using FastXTpl.Template.Host.Models.Sms;
 using Microsoft.AspNetCore.Mvc;
 using TencentCloud.Common;
-using TencentCloud.Common.Profile;
 using TencentCloud.Sms.V20210111;
 using TencentCloud.Sms.V20210111.Models;
 
-namespace FastX.App.Host.Controllers;
+namespace FastXTpl.Template.Host.Controllers;
 
 /// <summary>
 /// Account

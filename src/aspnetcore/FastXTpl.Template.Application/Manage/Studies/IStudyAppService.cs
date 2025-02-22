@@ -1,8 +1,7 @@
-using FastX.App.Application.Manage.Notis.Dtos;
-using FastX.App.Application.Manage.Studies.Dtos;
 using FastX.AspNetCore;
+using FastXTpl.Template.Application.Manage.Studies.Dtos;
 
-namespace FastX.App.Application.Manage.Studies;
+namespace FastXTpl.Template.Application.Manage.Studies;
 
 public interface IStudyAppService : IApplicationService
 {

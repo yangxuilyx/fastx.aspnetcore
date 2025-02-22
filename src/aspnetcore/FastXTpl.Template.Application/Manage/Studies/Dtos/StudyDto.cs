@@ -1,6 +1,6 @@
-using FastX.App.Core.Manage;
+using FastXTpl.Template.Core.Manage;
 
-namespace FastX.App.Application.Manage.Studies.Dtos;
+namespace FastXTpl.Template.Application.Manage.Studies.Dtos;
 
 public class StudyDto
 {

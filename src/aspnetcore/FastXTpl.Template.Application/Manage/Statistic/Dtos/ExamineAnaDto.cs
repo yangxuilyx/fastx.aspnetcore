@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Manage.Statistic.Dtos;
+namespace FastXTpl.Template.Application.Manage.Statistic.Dtos;
 
 /// <summary>
 /// 任务完成情况统计

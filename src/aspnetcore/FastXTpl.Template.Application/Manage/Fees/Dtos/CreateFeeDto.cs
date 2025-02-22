@@ -1,6 +1,6 @@
-using FastX.App.Core.Manage.Fees;
+using FastXTpl.Template.Core.Manage.Fees;
 
-namespace FastX.App.Application.Manage.Fees.Dtos;
+namespace FastXTpl.Template.Application.Manage.Fees.Dtos;
 
 /// <summary>
 /// CreateFeeDto

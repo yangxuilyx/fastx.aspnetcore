@@ -1,14 +1,15 @@
-using FastX.App.Application.Manage.ExamineObjectQuestions.Dtos;
-using FastX.App.Application.Manage.Questions.Dtos;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Core.Manage.Examines;
-using FastX.App.Core.Manage.Integrals;
-using FastX.App.Core.Manage.Questions;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Manage.ExamineObjectQuestions.Dtos;
+using FastXTpl.Template.Application.Manage.Questions.Dtos;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Examines;
+using FastXTpl.Template.Core.Manage.Integrals;
+using FastXTpl.Template.Core.Manage.Questions;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FastX.App.Application.Manage.ExamineObjectQuestions;
+namespace FastXTpl.Template.Application.Manage.ExamineObjectQuestions;
 
 /// <summary>
 /// 考核对象题库

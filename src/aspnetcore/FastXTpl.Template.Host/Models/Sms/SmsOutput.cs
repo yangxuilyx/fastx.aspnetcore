@@ -1,4 +1,4 @@
-namespace FastX.App.Host.Models.Sms;
+namespace FastXTpl.Template.Host.Models.Sms;
 
 /// <summary>
 /// 短信输出

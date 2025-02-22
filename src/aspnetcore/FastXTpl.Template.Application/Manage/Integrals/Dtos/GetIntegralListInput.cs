@@ -1,8 +1,8 @@
-using FastX.App.Core.Manage.Integrals;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
+using FastXTpl.Template.Core.Manage.Integrals;
 
-namespace FastX.App.Application.Manage.Integrals.Dtos;
+namespace FastXTpl.Template.Application.Manage.Integrals.Dtos;
 
 /// <summary>
 /// 积分

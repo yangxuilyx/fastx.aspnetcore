@@ -1,4 +1,4 @@
-namespace FastX.App.Application.Manage.Integrals.Dtos;
+namespace FastXTpl.Template.Application.Manage.Integrals.Dtos;
 
 /// <summary>
 /// 积分汇总

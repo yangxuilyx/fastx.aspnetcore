@@ -1,7 +1,7 @@
-using FastX.App.Application.Identity.Ous.Dtos;
 using FastX.AspNetCore;
+using FastXTpl.Template.Application.Identity.Ous.Dtos;
 
-namespace FastX.App.Application.Identity.Ous;
+namespace FastXTpl.Template.Application.Identity.Ous;
 
 /// <summary>
 /// 组织管理

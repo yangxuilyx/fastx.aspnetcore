@@ -1,6 +1,6 @@
-using FastX.App.Core.Identity.Users;
+using FastXTpl.Template.Core.Identity.Users;
 
-namespace FastX.App.Application.Identity.Users.Dtos;
+namespace FastXTpl.Template.Application.Identity.Users.Dtos;
 
 public class UserDto
 {

@@ -1,11 +1,11 @@
-using FastX.App.Application.Identity.Roles.Dtos;
-using FastX.App.Application.Identity.Users.Dtos;
-using FastX.App.Core.Identity.Users;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Identity.Users.Dtos;
+using FastXTpl.Template.Core.Identity.Users;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FastX.App.Application.Identity.Users;
+namespace FastXTpl.Template.Application.Identity.Users;
 
 /// <summary>
 /// 用户管理

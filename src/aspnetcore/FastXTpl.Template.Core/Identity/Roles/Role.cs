@@ -1,11 +1,8 @@
-using System.ComponentModel.DataAnnotations;
 using FastX.Data.DataFilters;
 using FastX.Data.Entities;
-using FastX.Data.SqlSugar;
 using FastX.Data.SqlSugar.DataAnnotations;
-using SqlSugar;
 
-namespace FastX.App.Core.Identity.Roles;
+namespace FastXTpl.Template.Core.Identity.Roles;
 
 /// <summary>
 /// 角色

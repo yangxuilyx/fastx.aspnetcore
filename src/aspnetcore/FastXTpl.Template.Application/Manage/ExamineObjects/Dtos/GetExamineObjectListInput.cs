@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
 
-namespace FastX.App.Application.Manage.ExamineObjects.Dtos;
+namespace FastXTpl.Template.Application.Manage.ExamineObjects.Dtos;
 
 public class GetExamineObjectListInput : IPagedResultRequest, ISortedResultRequest
 {

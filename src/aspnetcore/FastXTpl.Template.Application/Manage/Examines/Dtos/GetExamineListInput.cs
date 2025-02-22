@@ -1,8 +1,8 @@
-using FastX.App.Core.Manage.Examines;
 using FastX.Application.Dtos;
 using FastX.Data.PagedResult;
+using FastXTpl.Template.Core.Manage.Examines;
 
-namespace FastX.App.Application.Manage.Examines.Dtos;
+namespace FastXTpl.Template.Application.Manage.Examines.Dtos;
 
 /// <summary>
 /// 在线考核

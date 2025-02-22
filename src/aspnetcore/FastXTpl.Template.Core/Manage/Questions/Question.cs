@@ -1,9 +1,8 @@
 using System.ComponentModel;
-using FastX.Data;
 using FastX.Data.Entities.AuditEntities;
 using FastX.Data.SqlSugar.DataAnnotations;
 
-namespace FastX.App.Core.Manage.Questions;
+namespace FastXTpl.Template.Core.Manage.Questions;
 
 /// <summary>
 /// 题库

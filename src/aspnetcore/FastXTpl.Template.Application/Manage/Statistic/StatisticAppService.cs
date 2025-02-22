@@ -1,13 +1,12 @@
-using FastX.App.Application.Identity.Users.Dtos;
-using FastX.App.Application.Manage.Statistic.Dtos;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Core.Manage.Examines;
-using FastX.App.Core.Manage.Fees;
-using FastX.App.Core.Manage.Integrals;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Manage.Statistic.Dtos;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Examines;
+using FastXTpl.Template.Core.Manage.Fees;
+using FastXTpl.Template.Core.Manage.Integrals;
 
-namespace FastX.App.Application.Manage.Statistic;
+namespace FastXTpl.Template.Application.Manage.Statistic;
 
 public class StatisticAppService : ApplicationService, IStatisticAppService
 {

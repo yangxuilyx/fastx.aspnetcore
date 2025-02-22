@@ -1,14 +1,14 @@
-using FastX.App.Application.Manage.Integrals.Dtos;
-using FastX.App.Core.Identity.Ous;
-using FastX.App.Core.Identity.Users;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
-using SqlSugar;
-using FastX.App.Core.Manage.Integrals;
+using FastXTpl.Template.Application.Manage.Integrals.Dtos;
+using FastXTpl.Template.Core.Identity.Ous;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Integrals;
 using Microsoft.AspNetCore.Authorization;
-using FastX.Data.Entities;
+using SqlSugar;
 
-namespace FastX.App.Application.Manage.Integrals;
+namespace FastXTpl.Template.Application.Manage.Integrals;
 
 /// <summary>
 /// 积分

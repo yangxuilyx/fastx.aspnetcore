@@ -1,11 +1,12 @@
-using FastX.App.Application.Manage.ExamineObjects.Dtos;
-using FastX.App.Core.Identity.Users;
-using FastX.App.Core.Manage.Examines;
+using FastX;
 using FastX.Application.Services;
 using FastX.Data.Repository;
+using FastXTpl.Template.Application.Manage.ExamineObjects.Dtos;
+using FastXTpl.Template.Core.Identity.Users;
+using FastXTpl.Template.Core.Manage.Examines;
 using SqlSugar;
 
-namespace FastX.App.Application.Manage.ExamineObjects;
+namespace FastXTpl.Template.Application.Manage.ExamineObjects;
 
 public class ExamineObjectAppService:ReadOnlyAppService<ExamineObject,string,ExamineObjectDto,GetExamineObjectListInput>,IExamineObjectAppService
 {

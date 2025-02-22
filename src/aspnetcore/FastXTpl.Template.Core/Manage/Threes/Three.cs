@@ -1,10 +1,8 @@
-using FastX.Data;
-using FastX.Data.Entities;
 using FastX.Data.Entities.AuditEntities;
 using FastX.Data.SqlSugar.DataAnnotations;
 using SqlSugar;
 
-namespace FastX.App.Core.Manage.Threes;
+namespace FastXTpl.Template.Core.Manage.Threes;
 
 /// <summary>
 /// 三会一课
