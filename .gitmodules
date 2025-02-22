@@ -1,3 +1,3 @@
 [submodule "framework"]
 	path = framework
-	url = ../fastx.framework.git
+	url = https://codeup.aliyun.com/65aa81927d9af6b3f341cd08/fastx/fastx.framework.git
