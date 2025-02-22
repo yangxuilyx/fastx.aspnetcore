@@ -69,8 +69,8 @@ public class WebTemplateHostModule : XModule
             c.AddSecurityRequirement(securityRequirement);
 
             var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
-            c.IncludeXmlComments(Path.Combine(basePath, "FastXTpl.Template.Application.xml"));
-            c.IncludeXmlComments(Path.Combine(basePath, "FastXTpl.Template.Host.xml"));
+            c.IncludeXmlComments(Path.Combine(basePath, "FastXTpl.WebTemplate.Application.xml"));
+            c.IncludeXmlComments(Path.Combine(basePath, "FastXTpl.WebTemplate.Host.xml"));
         });
 
         services.AddEndpointsApiExplorer();

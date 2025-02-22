@@ -23,8 +23,9 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-app.UseResultWrapper();
+
 app.UseException();
+app.UseResultWrapper();
 
 app.Run();
 
