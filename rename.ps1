@@ -2,14 +2,15 @@
 $OutputEncoding = [Text.UTF8Encoding]::UTF8
 
 # company name placeholder 
-$oldCompanyName="Mydf"
-# your company name
-$newCompanyName="Mydf"
-
+$oldCompanyName="FastXTpl"
 # project name placeholder
-$oldProjectName="Vr"
+$oldProjectName="Template"
+
+# your company name
+$newCompanyName=""
+
 # your project name
-$newProjectName="Vr"
+$newProjectName=""
 
 # file type
 $fileType="FileInfo"
