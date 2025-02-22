@@ -16,13 +16,13 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY . .
-RUN dotnet restore "src/aspnetcore/FastXTpl.Template.Host/FastXTpl.Template.Host.csproj"
-RUN dotnet build "src/aspnetcore/FastXTpl.Template.Host/FastXTpl.Template.Host.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet restore "src/aspnetcore/FastXTpl.WebTemplate.Host/FastXTpl.WebTemplate.Host.csproj"
+RUN dotnet build "src/aspnetcore/FastXTpl.WebTemplate.Host/FastXTpl.WebTemplate.Host.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "src/aspnetcore/FastXTpl.Template.Host/FastXTpl.Template.Host.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-# COPY src/aspnetcore/FastXTpl.Template.Host/browser /app/publish/browser
+RUN dotnet publish "src/aspnetcore/FastXTpl.WebTemplate.Host/FastXTpl.WebTemplate.Host.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+# COPY src/aspnetcore/FastXTpl.WebTemplate.Host/browser /app/publish/browser
 
 
 FROM base AS final
@@ -31,4 +31,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 # COPY --from=front /app/dist/ng-ant-admin/browser ./web
-ENTRYPOINT ["dotnet", "FastXTpl.Template.Host.dll"]
+ENTRYPOINT ["dotnet", "FastXTpl.WebTemplate.Host.dll"]

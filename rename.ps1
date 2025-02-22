@@ -4,7 +4,7 @@ $OutputEncoding = [Text.UTF8Encoding]::UTF8
 # company name placeholder 
 $oldCompanyName="FastXTpl"
 # project name placeholder
-$oldProjectName="Template"
+$oldProjectName="WebTemplate"
 
 # your company name
 $newCompanyName=""
