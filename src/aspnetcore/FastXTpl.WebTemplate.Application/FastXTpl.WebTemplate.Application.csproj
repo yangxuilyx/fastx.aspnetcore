@@ -17,12 +17,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Remove="Questions\**" />
-      <EmbeddedResource Remove="Questions\**" />
-      <None Remove="Questions\**" />
-    </ItemGroup>
-
-    <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 

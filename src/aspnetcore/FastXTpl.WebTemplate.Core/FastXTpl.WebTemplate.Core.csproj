@@ -17,9 +17,7 @@
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Identity\Ous\" />
-    </ItemGroup>
+
     <ItemGroup>
       <ProjectReference Include="..\..\..\framework\src\FastX.Data\FastX.Data.csproj" />
     </ItemGroup>
