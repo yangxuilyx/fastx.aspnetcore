@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-critters-container>
+<head>
+  <meta charset="utf-8">
+  <title>NgAntAdmin</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" href="favicon.ico" rel="icon">
+  <style type="text/css">
+    .global-loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      will-change: transform;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .global-loader-fade-in {
+      will-change: transform;
+      opacity: 0;
+    }
+
+    .global-loader-hidden {
+      display: none;
+    }
+
+    .global-loader h1 {
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      letter-spacing: 0.04rem;
+      white-space: pre;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: repeating-linear-gradient(to right, #f44336, #9c27b0, #3f51b5, #03a9f4, #009688, #8bc34a, #ffeb3b, #ff9800);
+      background-size: 750% auto;
+      background-position: 0 100%;
+      animation: gradient 20s infinite;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+    }
+
+    .night-bg {
+      background-color: #141414;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0 0;
+      }
+
+      100% {
+        background-position: -750% 0;
+      }
+    }
+  </style>
+<style>:root{--w-e-textarea-bg-color: #fff;--w-e-textarea-color: #333;--w-e-textarea-border-color: #ccc;--w-e-textarea-slight-border-color: #e8e8e8;--w-e-textarea-slight-color: #d4d4d4;--w-e-textarea-slight-bg-color: #f5f2f0;--w-e-textarea-selected-border-color: #B4D5FF;--w-e-textarea-handler-bg-color: #4290f7;--w-e-toolbar-color: #595959;--w-e-toolbar-bg-color: #fff;--w-e-toolbar-active-color: #333;--w-e-toolbar-active-bg-color: #f1f1f1;--w-e-toolbar-disabled-color: #999;--w-e-toolbar-border-color: #e8e8e8;--w-e-modal-button-bg-color: #fafafa;--w-e-modal-button-border-color: #d9d9d9}
+</style><link rel="stylesheet" href="styles-2P4O2CGR.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-2P4O2CGR.css"></noscript><link rel="modulepreload" href="chunk-OC7FL4RI.js"><link rel="modulepreload" href="chunk-PANJUAOA.js"><link rel="modulepreload" href="chunk-KAN5X2SK.js"><link rel="modulepreload" href="chunk-D6AC346Y.js"><link rel="modulepreload" href="chunk-6RI7L6ZC.js"><link rel="modulepreload" href="chunk-ESGU6DYK.js"><link rel="modulepreload" href="chunk-JM4Q6M5A.js"><link rel="modulepreload" href="chunk-GGEG7LNG.js"><link rel="modulepreload" href="chunk-QA3WNWTC.js"><link rel="modulepreload" href="chunk-K3UCEQBL.js"><link rel="modulepreload" href="chunk-HLMBJXKN.js"><link rel="modulepreload" href="chunk-IUQ3UXTC.js"><link rel="modulepreload" href="chunk-R2HTRB5T.js"><link rel="modulepreload" href="chunk-HDIAUTON.js"><link rel="modulepreload" href="chunk-YRUIOUIJ.js"><link rel="modulepreload" href="chunk-FBUG2U6C.js"><link rel="modulepreload" href="chunk-25RHYGPJ.js"><link rel="modulepreload" href="chunk-W7ODNIXK.js"></head>
+<body>
+<app-root></app-root>
+<div id="globalLoader" class="global-loader">
+  <h1>loading...</h1>
+</div>
+<script src="polyfills-LZBJRJJE.js" type="module"></script><script src="scripts-DHZEZMTP.js" defer></script><script src="main-NNFQABIV.js" type="module"></script></body>
+<script>
+  const isNight = window.localStorage.getItem('IsNightKey');
+  if (isNight === 'true') {
+    document.getElementById('globalLoader').className += ' night-bg';
+  }
+</script>
+</html>

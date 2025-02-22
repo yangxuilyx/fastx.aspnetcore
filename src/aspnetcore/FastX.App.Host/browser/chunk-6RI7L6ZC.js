@@ -1,0 +1,1 @@
+import{g as o,ga as s}from"./chunk-25RHYGPJ.js";var c=(()=>{let t=class t{constructor(){this.userInfo$=new o({userId:"",authCode:[]})}setUserInfo(r){this.userInfo$.next(r)}getUserInfo(){return this.userInfo$.asObservable()}};t.\u0275fac=function(n){return new(n||t)},t.\u0275prov=s({token:t,factory:t.\u0275fac,providedIn:"root"});let e=t;return e})();export{c as a};
