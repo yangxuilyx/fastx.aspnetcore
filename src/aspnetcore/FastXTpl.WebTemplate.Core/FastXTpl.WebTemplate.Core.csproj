@@ -17,9 +17,8 @@
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
-
     <ItemGroup>
-      <ProjectReference Include="..\..\..\framework\src\FastX.Data\FastX.Data.csproj" />
+      <ProjectReference Include="..\..\..\framework\src\FastX.Core\FastX.Core.csproj" />
     </ItemGroup>
 
 </Project>

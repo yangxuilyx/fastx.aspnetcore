@@ -1,4 +1,4 @@
-using FastX.Data;
+using FastX;
 using FastX.Modularity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ namespace FastXTpl.WebTemplate.Core
     /// <summary>
     /// FastXAppCoreModule
     /// </summary>
-    [DependsOn(typeof(XDataModule))]
+    [DependsOn(typeof(XCoreModule))]
     public class WebTemplateCoreModule : XModule
     {
         /// <summary>
