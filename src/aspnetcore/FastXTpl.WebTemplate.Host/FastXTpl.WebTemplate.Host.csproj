@@ -25,6 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\framework\src\FastX.Autofac\FastX.Autofac.csproj" />
     <ProjectReference Include="..\..\..\framework\src\FastX.CodeGenerate\FastX.CodeGenerate.csproj" />
+    <ProjectReference Include="..\..\..\framework\src\FastX.Identity\FastX.Identity.csproj" />
     <ProjectReference Include="..\FastXTpl.WebTemplate.Application\FastXTpl.WebTemplate.Application.csproj" />
   </ItemGroup>
 

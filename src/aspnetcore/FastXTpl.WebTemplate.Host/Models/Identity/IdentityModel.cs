@@ -1,4 +1,4 @@
-using FastXTpl.WebTemplate.Core.Identity.Users;
+using FastX.Identity.Core.Identity.Users;
 
 namespace FastXTpl.WebTemplate.Host.Models.Identity;
 

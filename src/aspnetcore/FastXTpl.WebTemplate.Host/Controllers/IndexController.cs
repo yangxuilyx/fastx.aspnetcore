@@ -1,4 +1,4 @@
-using FastXTpl.WebTemplate.Core.Identity.Users;
+using FastX.Identity.Core.Identity.Users;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FastXTpl.WebTemplate.Host.Controllers;

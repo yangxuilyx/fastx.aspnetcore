@@ -1,10 +1,7 @@
 using FastX.Data;
 using FastX.Modularity;
-using FastXTpl.WebTemplate.Core.Identity.Users;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using SqlSugar;
 
 namespace FastXTpl.WebTemplate.Core
@@ -12,7 +9,7 @@ namespace FastXTpl.WebTemplate.Core
     /// <summary>
     /// FastXAppCoreModule
     /// </summary>
-    [DependsOn(typeof(FastXDataModule))]
+    [DependsOn(typeof(XDataModule))]
     public class WebTemplateCoreModule : XModule
     {
         /// <summary>
@@ -35,9 +32,6 @@ namespace FastXTpl.WebTemplate.Core
                 services.AddFastXStackExchangeRedisCache(redisConnectionString);
                 sugarBuilder.UseDataCache();
             }
-
-            services.TryAddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
-
         }
 
         /// <summary>

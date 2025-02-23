@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastXTpl.WebTemplate.Core",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastXTpl.WebTemplate.Host", "src\aspnetcore\FastXTpl.WebTemplate.Host\FastXTpl.WebTemplate.Host.csproj", "{2905F8CE-6475-42B3-A50D-E3D0111C709B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastX.Identity", "framework\src\FastX.Identity\FastX.Identity.csproj", "{696EC204-40C3-4F91-B7E3-83DE2CA1172D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{2905F8CE-6475-42B3-A50D-E3D0111C709B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2905F8CE-6475-42B3-A50D-E3D0111C709B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2905F8CE-6475-42B3-A50D-E3D0111C709B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696EC204-40C3-4F91-B7E3-83DE2CA1172D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696EC204-40C3-4F91-B7E3-83DE2CA1172D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696EC204-40C3-4F91-B7E3-83DE2CA1172D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696EC204-40C3-4F91-B7E3-83DE2CA1172D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{599599B7-2E40-4792-9AEF-6CDE0F737F59} = {3D795070-1D63-4677-BD5C-7208125B7DAB}
 		{71F8EACF-7C57-4F8F-B7F7-EDC75D2EDC49} = {3D795070-1D63-4677-BD5C-7208125B7DAB}
 		{2905F8CE-6475-42B3-A50D-E3D0111C709B} = {3D795070-1D63-4677-BD5C-7208125B7DAB}
+		{696EC204-40C3-4F91-B7E3-83DE2CA1172D} = {CD12CB8B-B3F1-4709-8015-A2D5B6A96483}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FBB648D-45A2-4EED-8BD5-F2D510288933}

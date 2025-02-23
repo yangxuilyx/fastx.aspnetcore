@@ -1,7 +1,7 @@
 using FastX;
 using FastX.Data.Repository;
-using FastXTpl.WebTemplate.Core.Identity.Roles;
-using FastXTpl.WebTemplate.Core.Identity.Users;
+using FastX.Identity.Core.Identity.Roles;
+using FastX.Identity.Core.Identity.Users;
 using FastXTpl.WebTemplate.Host.Models.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

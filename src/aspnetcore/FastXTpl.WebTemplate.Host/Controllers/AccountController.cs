@@ -2,7 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using FastX.Data.Repository;
-using FastXTpl.WebTemplate.Core.Identity.Users;
+using FastX.Identity.Core.Identity.Users;
 using FastXTpl.WebTemplate.Host.Models.Account;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
