@@ -1,4 +1,5 @@
 using FastX;
+using FastX.AspNetCore.Controllers;
 using FastXTpl.WebTemplate.Host.Models.File;
 using Microsoft.AspNetCore.Mvc;
 
