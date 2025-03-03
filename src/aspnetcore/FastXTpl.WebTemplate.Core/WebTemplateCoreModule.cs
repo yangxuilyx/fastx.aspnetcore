@@ -40,7 +40,7 @@ namespace FastXTpl.WebTemplate.Core
         /// <param name="services"></param>
         public override void PostConfigureServices(IServiceCollection services)
         {
-            services.GetSingletonInstance<XSugarBuilder>().CodeFirstInitTables(typeof(WebTemplateCoreModule).Assembly);
+            services.GetSingletonInstance<XSugarBuilder>().InitTables(typeof(WebTemplateCoreModule).Assembly);
         }
     }
 }

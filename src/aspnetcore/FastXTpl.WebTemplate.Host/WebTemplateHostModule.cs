@@ -1,5 +1,6 @@
 using System.Text;
 using FastX.CodeGenerate;
+using FastX.Identity;
 using FastX.Modularity;
 using FastXTpl.WebTemplate.Application;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -11,7 +12,7 @@ namespace FastXTpl.WebTemplate.Host;
 /// <summary>
 /// 
 /// </summary>
-[DependsOn(typeof(WebTemplateApplicationModule), typeof(XCodeGenerateModule))]
+[DependsOn(typeof(WebTemplateApplicationModule), typeof(XCodeGenerateModule),typeof(XIdentityModule))]
 public class WebTemplateHostModule : XModule
 {
     /// <summary>
