@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FastXTpl.WebTemplate.Host.Controllers;
 
 /// <summary>
-/// File
+/// 文件管理
 /// </summary>
 public class FileController : XController
 {
