@@ -29,7 +29,7 @@ namespace FastXTpl.WebTemplate.Core
             var redisConnectionString = configuration.GetConnectionString("Redis");
             if (!redisConnectionString.IsNullOrEmpty())
             {
-                services.AddFastXStackExchangeRedisCache(redisConnectionString);
+                services.AddXStackExchangeRedisCache(redisConnectionString);
                 sugarBuilder.UseDataCache();
             }
         }
