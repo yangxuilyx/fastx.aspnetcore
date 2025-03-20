@@ -26,19 +26,19 @@ sudo systemctl restart docker
 ### pgsql
 
 ```
-docker run -d -p 5432:5432 --name postgres --restart=always -v /etc/localtime:/etc/localtime -v pgdata:/var/lib/postgresql/data -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=123456 postgres:14.13
+docker run -d -p 5432:5432 --name postgres --restart=always -v /etc/localtime:/etc/localtime -v pgdata:/var/lib/postgresql/data -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=123456 registry.cn-chengdu.aliyuncs.com/fastx_public/postgres:14.13
 ```
 
 ### redis
 
 ```
-docker run --restart=always -p 6379:6379 --name redis -d redis:7.4.0
+docker run --restart=always -p 6379:6379 --name redis -d registry.cn-chengdu.aliyuncs.com/fastx_public/redis:7.4.0
 ```
 
 ### nginx
 
 ```
-docker run -itd --name nginx -p 80:80 -p 443:443 -v /app/nginx:/etc/nginx/conf.d nginx
+docker run -itd --name nginx -p 80:80 -p 443:443 -v /app/nginx:/etc/nginx/conf.d registry.cn-chengdu.aliyuncs.com/fastx_public/nginx:1.27.4
 ```
 
 ### mysql
