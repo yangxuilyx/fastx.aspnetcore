@@ -26,7 +26,7 @@ sudo systemctl restart docker
 ### pgsql
 
 ```
-docker run -d -p 5432:5432 --name postgres --restart=always -v /etc/localtime:/etc/localtime -v pgdata:/var/lib/postgresql/data -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=PasSWord#0822 postgres:14.13
+docker run -d -p 5432:5432 --name postgres --restart=always -v /etc/localtime:/etc/localtime -v pgdata:/var/lib/postgresql/data -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=123456 postgres:14.13
 ```
 
 ### redis
