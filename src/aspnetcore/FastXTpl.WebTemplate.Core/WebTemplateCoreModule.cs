@@ -24,6 +24,11 @@ namespace FastXTpl.WebTemplate.Core
                 {
                     options.ConnectionString = configuration.GetConnectionString("Default");
                     options.DbType = DbType.PostgreSQL;
+                    options.ConnMoreSettingsSetupAction = settings =>
+                    {
+                        //settings.PgSqlIsAutoToLower = false;
+                        //settings.PgSqlIsAutoToLowerCodeFirst = false;
+                    };
                 });
 
             var redisConnectionString = configuration.GetConnectionString("Redis");
